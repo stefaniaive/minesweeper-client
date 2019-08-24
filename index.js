@@ -1,5 +1,5 @@
 const request = require('request');
-const base_url = "http://localhost:5000/api/minesweeper"
+const base_url = "https://minesweeper-api-stefaniaive.herokuapp.com/api/minesweeper"
 
 
 exports.startNewGame = function(sizeX, sizeY, mines) {
